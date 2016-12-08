@@ -13,6 +13,7 @@
 		7D001E5B1DF997480084D21E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D001E591DF997480084D21E /* Main.storyboard */; };
 		7D001E5D1DF997480084D21E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D001E5C1DF997480084D21E /* Assets.xcassets */; };
 		7D001E601DF997480084D21E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D001E5E1DF997480084D21E /* LaunchScreen.storyboard */; };
+		7D001E691DF99A790084D21E /* huchiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D001E681DF99A790084D21E /* huchiCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		7D001E5C1DF997480084D21E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D001E5F1DF997480084D21E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D001E611DF997480084D21E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D001E671DF99A790084D21E /* huchiCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = huchiCell.h; sourceTree = "<group>"; };
+		7D001E681DF99A790084D21E /* huchiCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = huchiCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				7D001E541DF997480084D21E /* AppDelegate.m */,
 				7D001E561DF997480084D21E /* ViewController.h */,
 				7D001E571DF997480084D21E /* ViewController.m */,
+				7D001E671DF99A790084D21E /* huchiCell.h */,
+				7D001E681DF99A790084D21E /* huchiCell.m */,
 				7D001E591DF997480084D21E /* Main.storyboard */,
 				7D001E5C1DF997480084D21E /* Assets.xcassets */,
 				7D001E5E1DF997480084D21E /* LaunchScreen.storyboard */,
@@ -153,6 +158,7 @@
 				7D001E581DF997480084D21E /* ViewController.m in Sources */,
 				7D001E551DF997480084D21E /* AppDelegate.m in Sources */,
 				7D001E521DF997480084D21E /* main.m in Sources */,
+				7D001E691DF99A790084D21E /* huchiCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +315,7 @@
 				7D001E661DF997480084D21E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
